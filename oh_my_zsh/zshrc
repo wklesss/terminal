@@ -75,6 +75,7 @@ plugins=(
 	zsh-autosuggestions
 	autojump
 	zsh-syntax-highlighting
+	zsh-proxy
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,10 +103,33 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias proxy="export ALL_PROXY=socks5://127.0.0.1:7890"
-alias appup="sudo apt update && sudo apt upgrade"
+
+# 编辑zsh
+alias zshset="sudo vim ~/.zshrc"
+alias zshup="source ~/.zshrc"
+
+# 设置代理
+# proxy
+# proxy () {
+#  export http_proxy="http://172.20.48.1:7890"
+#  export https_proxy=$http_proxy
+#  export socks5_proxy="socks5://172.20.48.1:7890"
+#  echo "HTTP Proxy on"
+#}
+
+# noproxy
+# noproxy () {
+#  unset http_proxy
+#  unset https_proxy
+#  echo "HTTP Proxy off"
+#}
 
 export CF_API_EMAIL=wangkai1126@gmail.com
 export CF_API_KEY=072a76bcd9214d2345de7007209bcd418c635
+export NVS_HOME="$HOME/.nvs"
+[ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
+
+nvs link
+# neofetch
+# source ~/.bash_profile
