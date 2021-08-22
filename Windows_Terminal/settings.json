@@ -31,6 +31,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "launchMode": "default",
     "profiles": 
     {
         "defaults": {},
@@ -49,14 +50,8 @@
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "acrylicOpacity": 0.83999999999999997,
-                "colorScheme": "Violet Dark",
+                "acrylicOpacity": 0.82999999999999996,
+                "colorScheme": "Adventure",
                 "fontFace": "FuraMono Nerd Font Mono",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -65,7 +60,7 @@
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.89000000000000001,
+                "acrylicOpacity": 0.90000000000000002,
                 "colorScheme": "Adventure",
                 "fontFace": "FiraMono Nerd Font Mono",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -73,6 +68,12 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             }
         ]
     },
@@ -123,29 +124,6 @@
             "selectionBackground": "#606060",
             "white": "#DBDED8",
             "yellow": "#EEBB6E"
-        },
-        {
-            "background": "#212121",
-            "black": "#151515",
-            "blue": "#6C99BB",
-            "brightBlack": "#505050",
-            "brightBlue": "#6C99BB",
-            "brightCyan": "#7DD6CF",
-            "brightGreen": "#7E8E50",
-            "brightPurple": "#9F4E85",
-            "brightRed": "#AC4142",
-            "brightWhite": "#F5F5F5",
-            "brightYellow": "#E5B567",
-            "cursorColor": "#D0D0D0",
-            "cyan": "#7DD6CF",
-            "foreground": "#D0D0D0",
-            "green": "#7E8E50",
-            "name": "Afterglow",
-            "purple": "#9F4E85",
-            "red": "#AC4142",
-            "selectionBackground": "#303030",
-            "white": "#D0D0D0",
-            "yellow": "#E5B567"
         },
         {
             "background": "#0C0C0C",
