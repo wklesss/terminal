@@ -9,3 +9,9 @@ Set-PSReadLineKeyHandler -Key "Ctrl+d" -Function MenuComplete # 设置 Ctrl+d �
 Set-PSReadLineKeyHandler -Key "Ctrl+z" -Function Undo # 设置 Ctrl+z 为撤销
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward # 设置向上键为后向搜索历史记录
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward # 设置向下键为前向搜索历史纪录
+
+# 设置别名
+Set-Alias chrome "C:\Program Files\Google\Chrome\Application\chrome.exe"
+Set-Alias wechat "C:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+Set-Alias ps "D:\Program Files\Adobe\Adobe Photoshop 2021\Photoshop.exe"
+function proxy {$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"}
