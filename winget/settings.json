@@ -25,15 +25,9 @@
     },
     "experimentalFeatures": {
         "experimentalCmd": true,
-        "experimentalArg": false
-    },
-    "experimentalFeatures": {
-        "experimentalMSStore": true
-    },
-    "experimentalFeatures": {
-        "packagedAPI": true
-    },
-    "experimentalFeatures": {
+        "experimentalArg": false,
+        "experimentalMSStore": true,
+        "packagedAPI": true,
         "dependencies": true
     },
 }
